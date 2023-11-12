@@ -48,5 +48,5 @@ def test_random() -> None:
     random_number: int = random.randint(1, 50)
     print(f"random_number: {random_number}")
 
-    assert random_number % 2 == 0
+    assert random_number % 3 == 0
 
