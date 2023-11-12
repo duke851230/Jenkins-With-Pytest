@@ -6,4 +6,4 @@ WORKDIR /var/pytest
 
 RUN pip install -r /var/pytest/requirements.txt
 
-CMD ["python", "test.py"]
+CMD ["python", "test.py", "&& exit \${PIPESTATUS[0]}"]
