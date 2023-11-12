@@ -1,0 +1,15 @@
+# 忽略所有目錄中的 .pyc 文件
+**/*.pyc
+__pycache__
+
+# 忽略 .git 與 .pytest_cache 目錄
+.git
+.gitignore
+.pytest_cache
+
+# 忽略 Docker 相關文件
+Dockerfile
+build_image.sh
+
+# 忽略 Allure 文件
+allure-results
