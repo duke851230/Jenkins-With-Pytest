@@ -6,4 +6,4 @@ WORKDIR /var/pytest
 
 RUN pip install -r /var/pytest/requirements.txt
 
-CMD /bin/sh -c "python test.py; echo ${PIPESTATUS[0]}"
+CMD /bin/sh -c "python test.py; echo \${PIPESTATUS[0]}"
