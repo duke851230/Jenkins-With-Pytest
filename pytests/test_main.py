@@ -42,11 +42,11 @@ def test_calculate_two_number() -> None:
     assert res == num1 - num2
 
 
-# def test_random() -> None:
-#     import random
+def test_random() -> None:
+    import random
 
-#     random_number: int = random.randint(1, 50)
-#     print(f"random_number: {random_number}")
+    random_number: int = random.randint(1, 50)
+    print(f"random_number: {random_number}")
 
-#     assert random_number % 3 == 0
+    assert random_number % 3 == 0
 
