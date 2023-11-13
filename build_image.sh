@@ -10,4 +10,3 @@ docker build -f Dockerfile -t mytest:1.0.0 .
 
 cd -
 
-
